@@ -1,5 +1,5 @@
 # electron_vue_demo
-用electron将一个在线应用包装成app，框架用Vue。 
+用electron将一个在线应用包装成桌面app，包含登录、打包、检查更新，框架用Vue。 
 ### 工程目录
 ``` bash
 │
