@@ -1,5 +1,10 @@
 # electron_vue_demo
 用electron将一个在线应用包装成桌面app，包含登录、打包、检查更新，框架用Vue。 
+采用的是单package.json的结构， node_moudles只维护一份。
+打包使用electron-builder，提供mac和window下打包方式。
+打包过程中遇到download失败，尝试配置提前下好依赖包以及配置ELECTRON_MIRROR。
+提供公共的菜单栏，弃用默认菜单项，防止不同平台，app风格不统一。
+electron-updater更新测试通过。
 ### 工程目录
 ``` bash
 │
@@ -23,6 +28,7 @@
 |---run.js
 ├── config.js                           <=  配置
 ├── webpack.config.js
+|--- package.json
 │
 ```
 
