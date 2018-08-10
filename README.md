@@ -1,3 +1,5 @@
+# electron_vue_demo
+用electron将一个在线应用包装成桌面app，包含登录、打包、检查更新，框架用Vue。 
 ### 工程目录
 ``` bash
 │
@@ -18,12 +20,9 @@
 │   │   │   ├── store                   <=  Vuex
 │   │   │   ├── views                   <=  视图层
 │   ├── index.ejs                       <= 模板文件
-├── build                               <=  打包桌面应用相关
-├── tasks                               <=  electron-packeger打包
-│   ├── runner.js
+|---run.js
 ├── config.js                           <=  配置
 ├── webpack.config.js
-├── package.json
 │
 ```
 
