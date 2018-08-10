@@ -1,0 +1,335 @@
+/* login 文件样式  */
+.fn-icon{
+  position: absolute;
+  height: 20px;
+  width: 24px;
+  z-index: 1;
+  background-size: auto 250% !important;
+  margin: 12px 9px;
+}
+.fn-icon-com {
+  background: url('../../static/icons.png') -409px -9px no-repeat;
+}
+.fn-icon-account {
+  background: url('../../static/icons.png')  -444px -9px no-repeat;
+}
+.fn-icon-pwd {
+  background: url('../../static/icons.png') -479px -9px no-repeat;
+}
+.icon-inner {
+  position: absolute;
+  z-index: 4;
+  font-size: 18px;
+  width: 30px;
+  top: 14px;
+  left: 8px;
+}
+.login-wrap {
+  position: fixed;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.login-form {
+  color: #131E27;
+  position: absolute;
+  z-index: 1;
+  top: 25%;
+  right: 10%;
+  margin: auto;
+  padding: 30px 24px;
+  width: 298px;
+  height: 318px;
+  font-size: 14px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-shadow: 2px 2px 32px 1px rgba(0, 0, 0, .45);
+  opacity: .85;
+}
+.ivu-input {
+  display: block;
+  width: 248px;
+  height: 38px;
+  padding-left:34px;
+  padding-right:20px;
+  border-radius:2px;
+  border: 1px solid #999999;
+  color: #131E27;
+}
+.ivu-input-wrapper{
+  margin-bottom:12px;
+}
+.ivu-input-wrapper .ivu-icon{
+  left: 0px;
+  height: 38px;
+  line-height: 40px;
+  font-size: 20px;
+  color:inherit;
+}
+.ivu-alert.ivu-alert-with-icon, .ivu-alert{
+  padding:0px 18px 0px 18px;
+  background: none;
+  border:none;
+  margin-bottom: 0px;
+  color:red;
+}
+.ivu-alert-icon{
+  top:0px;
+  left:0px;
+}
+.ivu-input:hover{
+  border: 1px solid #ea8710;
+}
+.ivu-input:focus{
+  border: 1px solid #ea8710;
+  box-shadow: 0 0 0 2px rgba(243,135,16,.2);
+}
+.submit {
+  border-radius:2px;
+  color: #fff;
+  background: #FF9D29;
+  border: none;
+  width: 248px;
+  height: 38px;
+  font-size: 16px;
+}
+.submit:hover{
+  background: #ea8710!important;
+  border: none!important;
+}
+.login-header{
+  color: #131E27;
+  letter-spacing: 1px;
+  line-height: 18px;
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+  padding: 0px 0px 20px 0px;
+}
+.check-line{
+  padding: 0px 0px 5px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.check-line >label {
+
+}
+.check-line >.checkbox{
+}
+.check-line .btn-link {
+  font-size: 12px;
+  color: #008FFF;
+  border-radius: 0px;
+  padding:0px;
+}
+.check-line .btn-link:hover {
+  border-bottom: 1px solid #57a3f3;
+  border-radius: 0px;
+  opacity: 1;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    width: 450px;
+    float: left;
+    margin-left: 20px;
+}
+
+h1{
+    width: 450px;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+p{
+    width: 450px;
+    height: 50px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.chessboard{
+    width: 450px;
+    height: 450px;
+    background: #F9CC9D;
+}
+
+.chess{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+.chess:before{
+    content: "";
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    right: 0;
+    top: 15px;
+    height: 1px;
+    background: #999;
+}
+
+.chess:after{
+    content: "";
+    position: absolute;
+    z-index: 2;
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+    background: #999;
+}
+
+.chess.left:before{
+    left: 15px;
+    right: 0;
+    top: 15px;
+    height: 1px;
+}
+
+.chess.left:after{
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+}
+
+.chess.right:before{
+    left: 0;
+    right: 15px;
+    top: 15px;
+    height: 1px;
+}
+
+.chess.right:after{
+    left: 15px;
+    top: 0;
+    bottom: 0;
+    width: 1px;
+}
+
+.chess.top:before{
+    left: 0;
+    right: 0;
+    top: 15px;
+    height: 1px;
+}
+
+.chess.top:after{
+    left: 15px;
+    top: 15px;
+    bottom: 0;
+    width: 1px;
+}
+
+.chess.bottom:before{
+    left: 0;
+    right: 0;
+    top: 15px;
+    height: 1px;
+}
+
+.chess.bottom:after{
+    left: 15px;
+    bottom: 15px;
+    width: 1px;
+}
+
+.chess.top.left:before{
+    left: 15px;
+    right: 0;
+    top: 15px;
+    height: 1px;
+}
+
+.chess.top.right:after{
+    left: 15px;
+    top: 15px;
+    bottom: 0;
+    width: 1px;
+}
+
+.chess.top.right:before{
+    left: 0;
+    right: 15px;
+    top: 15px;
+    height: 1px;
+}
+
+.chess.top.left:after{
+    left: 15px;
+    top: 15px;
+    bottom: 0;
+    width: 1px;
+}
+
+.chess.bottom.left:before{
+    left: 15px;
+    right: 0;
+    top: 15px;
+    height: 1px;
+}
+
+.chess.bottom.left:after{
+    left: 15px;
+    bottom: 15px;
+    width: 1px;
+}
+
+.chess.bottom.right:before{
+    left: 0;
+    right: 15px;
+    top: 15px;
+    height: 1px;
+}
+
+.chess.bottom.left:after{
+    left: 15px;
+    bottom: 15px;
+    width: 1px;
+}
+
+.active {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.active:before{
+    content: none;
+}
+
+.active:after{
+    content: none;
+}
+
+.black{
+    background: #000;
+}
+
+.white{
+    background: #fff;
+}
+
+.restart{
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    margin-left: -100px;
+    margin-top: 20px;
+}

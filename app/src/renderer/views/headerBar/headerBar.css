@@ -1,0 +1,211 @@
+ #head-bar .ivu-tooltip-inner{
+    white-space: normal;
+    max-width:320px!important;
+    background: rgba(0,0,0,0.80);
+    border-radius: 2px;
+    font-family: STHeitiSC-Light;
+    font-size: 12px;
+  }
+  #head-bar .ivu-tooltip-popper[x-placement^=bottom] .ivu-tooltip-arrow{
+    border-bottom-color: rgba(0,0,0,0.80);
+  }
+  #head-bar .tips-content>div{
+    width: 302px;
+    word-wrap:break-word;
+    display:block;
+  }
+  #head-bar .fn-icon{
+    height: 18px;
+    width: 18px;
+    z-index: 1;
+    background-size: auto 300% !important;
+    margin: 6px 8px 6px 8px;
+    display: inline-block;
+    position: initial;
+    line-height: 30px;
+    cursor: pointer;
+  }
+  #head-bar {
+    width: 100%;
+    height: 30px;
+    overflow: hidden;
+    line-height: 30px;
+    -webkit-app-region: drag;
+  }
+  .left-content>div, .right-content>div{
+    display: inline;
+    line-height: 30px;
+    vertical-align: middle;
+    font-family: AdobeHeitiStd-Regular;
+    font-size: 13px;
+    color: #596D82;
+    letter-spacing: 0;
+  }
+  .left-content {
+    margin-left: 9px;
+    width: 40%;
+    float: left;
+  }
+  .right-content {
+    font-size: 12px;
+    margin-right: 9px;
+    width: 50%;
+    text-align: right;
+    float: right;
+    display: flex;
+    flex-direction: row;
+  }
+  #logo {
+    background: url('../../static/icons.png') -10px -10px no-repeat;
+    margin: 0px!important;
+  }
+  #refresh, #minimize, #maximize, #restore, #close, #setting, .latency {
+    -webkit-app-region: no-drag;
+  }
+  #refresh{
+    background: url('../../static/icons.png') -76px -5px no-repeat;
+    position: absolute!important;
+    top: 0px;
+    right: 136px;
+  }
+  #refresh:hover {
+    background: url('../../static/icons.png') -44px -5px no-repeat;
+  }
+  #minimize:hover {
+    background: url('../../static/icons.png') -108px -7px no-repeat;
+  }
+  #minimize {
+    background: url('../../static/icons.png') -140px -7px no-repeat;
+    position: absolute!important;
+    top: 0px;
+    right: 68px;
+  }
+  #maximize {
+    background: url('../../static/icons.png') -206px -5px no-repeat;
+    position: absolute!important;
+    top: 0px;
+    right: 34px;
+  }
+  #maximize:hover {
+    background: url('../../static/icons.png') -174px -5px no-repeat;
+  }
+  #restore {
+    background: url('../../static/icons.png') -269px -5px no-repeat;
+    position: absolute!important;
+    top: 0px;
+    right: 34px;
+  }
+  #restore:hover {
+    background: url('../../static/icons.png') -237px -5px no-repeat;
+  }
+  #close:hover {
+    background: url('../../static/icons.png') -333px -5px no-repeat;
+  }
+  #close {
+    background: url('../../static/icons.png') -302px -5px no-repeat;
+    position: absolute!important;
+    top: 0px;
+    right: 0px;
+  }
+  #setting:hover {
+    background: url('../../static/icons.png') -44px -21px no-repeat;
+  }
+  #setting {
+    background: url('../../static/icons.png') -77px -21px no-repeat;
+    position: absolute!important;
+    top: 0px;
+    right: 102px;
+  }
+  hr.sep-line {
+    border: 0;
+    width: 1px;
+    height: 18px;
+    position: absolute;
+    top: 6px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(179, 174, 174, 0.75), rgba(0, 0, 0, 0));
+  }
+  #net-latency{
+    position: absolute;
+    right: 180px;
+  }
+  .latency {
+    display: inline-block;
+    min-width:22px;
+    text-align:center;
+  }
+  .font-red {
+    color: red;
+  }
+  .channel-wrap {
+    margin: 10px 0px;
+  }
+  .ivu-modal-body{
+    padding: 10px 16px;
+  }
+  .ivu-modal-body h3{
+    margin-bottom: 4px 0px;
+  }
+  .ivu-radio-group {
+    line-height: 28px;
+  }
+  .ivu-modal-header {
+    padding: 10px;
+  }
+  .ivu-modal-close{
+    top: 5px;
+  }
+  .ivu-modal-body label{
+    margin-left: 10px;
+    line-height: 28px;
+    vertical-align: middle;
+  }
+  .ivu-modal-body section{
+    padding-bottom: 4px;
+  }
+  .ivu-modal-footer{
+    padding: 7px 10px;
+  }
+  .version-div{
+    display:inline-block;
+    vertical-align: middle;
+    line-height: 28px;
+  }
+  .update-btn {
+    height: 28px;
+    padding: 4px 12px;
+    border-radius: 2px;
+    margin-left: 4px;
+  }
+  .ivu-modal-footer button{
+    font-size: 14px;
+    height: 28px;
+    line-height: 28px;
+    padding-top: 0px;
+  }
+  .about-sec {
+    border-top: 1px solid #e9eaec;
+    padding-top: 10px;
+  }
+  .channel-wrap .ivu-input-wrapper{
+    display: inline-block;
+    font-size: 14px;
+    margin-bottom: 0px;
+    width: calc( 100% - 100px);
+  }
+  .channel-wrap .ivu-input-wrapper input{
+    padding-left: 10px;
+    height: 28px;
+    width: 100%;
+  }
+  .spin-icon-load{
+    animation: ani-demo-spin 1s linear infinite;
+  }
+  @keyframes ani-demo-spin {
+    from { transform: rotate(0deg);}
+    50%  { transform: rotate(180deg);}
+    to   { transform: rotate(360deg);}
+  }
+  .spin-div{
+    height: 100px;
+    position: relative;
+  }
